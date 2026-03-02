@@ -52,7 +52,7 @@ src/
 
 ## Project Links
 
-- [GitHub Repository](https://github.com/your-username/number-guessing-game)
+- [GitHub Repository](https://github.com/AdiyaTakhell/Number_Guessing_Game.git)
 - [Roadmap.sh Project Page](https://roadmap.sh/projects/number-guessing-game)
 
 ## Contributing

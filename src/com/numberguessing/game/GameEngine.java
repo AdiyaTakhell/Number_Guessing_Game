@@ -1,15 +1,15 @@
 package com.numberguessing.game;
 
+import com.numberguessing.service.HintService;
 import com.numberguessing.service.NumberGeneratorService;
 import com.numberguessing.ui.ConsoleUI;
-import com.numberguessing.service.HintService;
 
 public class GameEngine {
     private final ConsoleUI consoleUI;
     private final NumberGeneratorService numberGeneratorService;
     private final HintService hintService;
 
-   private DifficultyLevel difficultyLevel;
+    private DifficultyLevel difficultyLevel;
     private int targetNumber;
 
     public GameEngine() {
@@ -68,7 +68,7 @@ public class GameEngine {
             } else {
                 consoleUI.displayMessage("Incorrect! The number is less than " + guess + ".");
             }
-            if (attempt % 2 == 0 ){
+            if (attempt % 2 == 0) {
                 consoleUI.displayMessage(hintService.generateHint(targetNumber, guess));
             }
 

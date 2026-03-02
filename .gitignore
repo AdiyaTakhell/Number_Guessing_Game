@@ -30,3 +30,9 @@ bin/
 .DS_Store
 
 .idea
+# Ignore everything
+*
+
+# But not these files/folders
+!.gitignore
+!src/
